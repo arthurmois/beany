@@ -1,11 +1,11 @@
-import { GeistProvider, CssBaseline } from '@geist-ui/react'
-import App from './App'
+import { GeistProvider, CssBaseline } from "@geist-ui/react";
+import App from "./App";
 
 const Application = () => (
   <GeistProvider>
     <CssBaseline />
     <App />
   </GeistProvider>
-)
+);
 
-export default Application
+export default Application;
